@@ -1,0 +1,100 @@
+{"RelatedTo": {
+	"description": "The most general relation. There is some positive relationship between A and B, but ConceptNet can't determine what that relationship is based on the data. This was called 'ConceptuallyRelatedTo in ConceptNet 2 through 4. Symmetric.",
+	"masks": [] },
+"FormOf": {
+	"description": "A is an inflected form of B; B is the root word of A.",
+	"masks": [] },
+"IsA": {
+	"description": "A is a subtype or a specific instance of B; every A is a B. This can include specific instances; the distinction between subtypes and instances is often blurry in language. This is the hyponym relation in WordNet.",
+	"masks": [] },
+"PartOf": {
+	"description": "A is a part of B. This is the part meronym relation in WordNet.",
+	"masks": [] },
+"HasA": {
+	"description": "B belongs to A, either as an inherent part or due to a social construct of possession. HasA is often the reverse of PartOf.",
+	"masks": ["The OBJECT1 has a OBJECT2"] },
+"UsedFor": {
+	"description": "A is used for B; the purpose of A is B.",
+	"masks": [] },
+"CapableOf": {
+	"description": "Something that A can typically do is B.",
+	"masks": [] },
+"AtLocation": {
+	"description": "A is a typical location for B, or A is the inherent location of B. Some instances of this would be considered meronyms in WordNet.",
+	"masks": ["A OBJECT1 is in the OBJECT2"] },
+"Causes": {
+	"description": "A and B are events, and it is typical for A to cause B.",
+	"masks": [] },
+"HasSubevent": {
+	"description": "A and B are events, and B happens as a subevent of A.",
+	"masks": [] },
+"HasFirstSubevent": {
+	"description": "A is an event that begins with subevent B.",
+	"masks": [] },
+"HasLastSubevent": {
+	"description": "A is an event that concludes with subevent B.",
+	"masks": [] },
+"HasPrerequisite": {
+	"description": "In order for A to happen, B needs to happen; B is a dependency of A.",
+	"masks": [] },
+"HasProperty": {
+	"description": "A has B as a property; A can be described as B.",
+	"masks": [] },
+"MotivatedByGoal": {
+	"description": "Someone does A because they want result B; A is a step toward accomplishing the goal B.",
+	"masks": [] },
+"ObstructedBy": {
+	"description": "A is a goal that can be prevented by B; B is an obstacle in the way of A.",
+	"masks": [] },
+"Desires": {
+	"description": "A is a conscious entity that typically wants B. Many assertions of this type use the appropriate language's word for 'person' as A.",
+	"masks": [] },
+"CreatedBy": {
+	"description": "B is a process or agent that creates A.",
+	"masks": [] },
+"Synonym": {
+	"description": "A and B have very similar meanings. They may be translations of each other in different languages. This is the synonym relation in WordNet as well. Symmetric.",
+	"masks": [] },
+"Antonym": {
+	"description": "A and B are opposites in some relevant way, such as being opposite ends of a scale, or fundamentally similar things with a key difference between them. Counterintuitively, two concepts must be quite similar before people consider them antonyms. This is the antonym relation in WordNet as well. Symmetric.",
+	"masks": [] },
+"DistinctFrom": {
+	"description": "A and B are distinct member of a set; something that is A is not B. Symmetric.",
+	"masks": [] },
+"DerivedFrom": {
+	"description": "A is a word or phrase that appears within B and contributes to B's meaning.",
+	"masks": [] },
+"SymbolOf": {
+	"description": "A symbolically represents B.",
+	"masks": [] },
+"DefinedAs": {
+	"description": "A and B overlap considerably in meaning, and B is a more explanatory version of A.",
+	"masks": [] },
+"MannerOf": {
+	"description": "A is a specific way to do B. Similar to 'IsA', but for verbs.",
+	"masks": [] },
+"LocatedNear": {
+	"description": "A and B are typically found near each other. Symmetric.",
+	"masks": [] },
+"HasContext": {
+	"description": "A is a word used in the context of B, which could be a topic area, technical field, or regional dialect.",
+	"masks": [] },
+"SimilarTo": {
+	"description": "A is similar to B. Symmetric.",
+	"masks": [] },
+"EtymologicallyRelatedTo": {
+	"description": "A and B have a common origin. Symmetric.",
+	"masks": [] },
+"EtymologicallyDerivedFrom": {
+	"description": "A is derived from B.",
+	"masks": [] },
+"CausesDesire": {
+	"description": "A makes someone want B.",
+	"masks": [] },
+"MadeOf": {
+	"description": "A is made of B.",
+	"masks": [] },
+"ReceivesAction": {
+	"description": "B can be done to A.",
+	"masks": [] },
+}

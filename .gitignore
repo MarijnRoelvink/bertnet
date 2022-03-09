@@ -1,0 +1,6 @@
+.idea/
+img/
+out/
+resources/*.model
+resources/*.npy
+*/__pycache__/*
